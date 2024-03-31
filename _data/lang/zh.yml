@@ -12,10 +12,10 @@ lng:
   country: CN
   switch_title: Zh
   offer:
-    title: Language
-    msg_page: View this page in English.
+    title: 语言
+    msg_page: 使用英文浏览本页。
     # if page translation is not available, use this.
-    msg_site: To home
+    msg_site: 主页
 
 date:
   # if %b is used in the long format, it will be replaced with the corresponding item in 'months' list below.
@@ -23,32 +23,32 @@ date:
   day: "%d"
   year: "%Y"
   # months itself also used in Archive page.
-  months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  months: [一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
 
 not_found:
-  header: Page not found
-  line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  header: 页面未找到
+  line1: 找不到您请求的页面。
+  line2: 尝试菜单，或网站搜索如果可用。
 
-no_translation_tooltip: No Translation
+no_translation_tooltip: 没有翻译
 
 navigation:
-  contact_header: Contact
+  contact_header: 联络
 
-color_scheme_switch_tooltip: Color scheme
+color_scheme_switch_tooltip: 颜色方案
 
 search:
-  placeholder: Search
-  noResultText: No results were found.
+  placeholder: 搜索
+  noResultText: 没有发现结果。
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: 无法加载图像。
 
 copyright:
-  additional_text: " All rights reserved."
+  additional_text: " 版权所有"
 
 creative_commons:
-  some_rights_reserved: Some rights reserved.
+  some_rights_reserved: 保留部分权利
   # check _data/owner/[language].yml for license type.
   by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
   by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
@@ -76,12 +76,12 @@ post:
     first_post: First
     last_post: Last
   comments:
-    noscript: Please enable JavaScript to view the Comments.
+    noscript: 请启用JavaScript以查看注释。
     disqus:
-      count_title: Comments
-      click_to_load: "Load comments"
+      count_title: 评论
+      click_to_load: "加载评论"
       consent:
-        title: Comments (Disqus.com)
+        title: 评论 (Disqus.com)
         text: >
           Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
           <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
