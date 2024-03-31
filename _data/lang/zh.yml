@@ -13,7 +13,7 @@ lng:
   switch_title: Zh
   offer:
     title: 语言
-    msg_page: 使用英文浏览本页。
+    msg_page: 使用中文浏览本页。
     # if page translation is not available, use this.
     msg_site: 主页
 
