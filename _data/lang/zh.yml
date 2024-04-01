@@ -110,8 +110,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: 博客
+  button_name: 博客
   upside_down_tabs:
     tab:
       all: All
