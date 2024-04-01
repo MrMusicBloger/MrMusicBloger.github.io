@@ -134,36 +134,36 @@ post-list:
 
 # for home layout
 home:
-  title: Welcome
-  button_name: Home
-  new_posts_title: New Articles
-  new_posts_show_more_button: View More ...
+  title: 欢迎来到
+  button_name: 主页
+  new_posts_title: 最新文章
+  new_posts_show_more_button: 查看更多 ...
 
 # for archives layout
 archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
+  title: 存档
+  button_name: 存档
+  page_header: 存档
 
 # for about layout
 about:
-  title: About
-  button_name: About
-  email_title: email
+  title: 关于
+  button_name: 关于
+  email_title: 关于
 
 # for links layout
 links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
+  title: 链接
+  button_name: 链接
+  link_text: 网页
+  info_text: 信息
 
 # for projects layout
 projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
+  title: 项目
+  button_name: 项目
+  read_more_text: 更多信息
+  read_less_text: 更少信息
 
 # for privacy-policy layout
 privacy-policy:
