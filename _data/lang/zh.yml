@@ -134,7 +134,7 @@ post-list:
 
 # for home layout
 home:
-  title: 欢迎来到
+  title: 欢迎来到我的博客
   button_name: 主页
   new_posts_title: 最新文章
   new_posts_show_more_button: 查看更多 ...
