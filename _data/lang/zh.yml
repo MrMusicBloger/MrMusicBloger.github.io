@@ -173,7 +173,7 @@ privacy-policy:
 constants:
   greetings: 你好
   welcome: 欢迎来到
-  sample: 欢迎来到Music先生的博客。
+  sample: 欢迎来到Music先生的博客
 
 # for contact form
 contact_form:
