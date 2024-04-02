@@ -172,8 +172,8 @@ privacy-policy:
 # constants to be replaced for
 constants:
   greetings: 你好
-  welcome: 欢迎
-  sample: Sample
+  welcome: 欢迎来到
+  sample: 欢迎来到Music先生的博客
 
 # for contact form
 contact_form:
