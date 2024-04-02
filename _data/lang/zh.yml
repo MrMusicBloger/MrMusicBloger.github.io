@@ -50,12 +50,12 @@ copyright:
 creative_commons:
   some_rights_reserved: 保留部分权利
   # check _data/owner/[language].yml for license type.
-  by: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution 4.0 International License.
-  by-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
-  by-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-  by-nc: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-  by-nc-nd: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
-  by-nc-sa: Except where otherwise noted, content on this web site is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+  by: 除非另有说明，本网站的内容均遵循知识共享署名4.0国际许可协议。
+  by-nd: 除非另有说明，本网站的内容均遵循知识共享署名-禁止衍生品4.0国际许可协议。
+  by-sa: 除非另有说明，本网站的内容均遵循知识共享署名-相同方式共享4.0国际许可协议。
+  by-nc: 除非另有说明，本网站的内容均遵循知识共享署名-非商业4.0国际许可协议。
+  by-nc-nd: 除非另有说明，本网站的内容均遵循知识共享署名-非商业性-非衍生品4.0国际许可协议。
+  by-nc-sa: 除非另有说明，本网站的内容均遵循知识共享署名-非商业性-相同方式共享4.0国际许可协议。
 
 # for 404 layout
 not-found:
@@ -71,10 +71,10 @@ post:
     # char or words per minute
     per_minute: 200
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← 更旧的帖子"
+    newer_post: "更新的帖子 →"
+    first_post: 最前
+    last_post: 最后
   comments:
     noscript: 请启用JavaScript以查看注释。
     disqus:
@@ -83,21 +83,21 @@ post:
       consent:
         title: 评论 (Disqus.com)
         text: >
-          Comment feature is hosted by a third party. By showing the external content you accept the $terms and $privacy_policy of disqus.com.
-          <br>If you prefer to opt out of targeted advertising, open $settings_link and click "opt-out" button and close. Return here and load comments.
-        terms_link_text: Terms of Service
-        privacy_link_text: Privacy Policy
-        settings_link_text: this link
+          评论功能由第三方托管。通过显示外部内容，您接受disqus.com的$terms和$privacy_policy。
+          <br>如果你想退出定向广告，打开$settings_link，点击“选择退出”按钮，然后关闭。返回这里并加载注释。
+        terms_link_text: 服务条款
+        privacy_link_text: 隐私权政策
+        settings_link_text: 这个链接
         button:
-          load_once: Show only this time
-          load_and_do_not_ask_again: Always show
+          load_once: 只展示这一次
+          load_and_do_not_ask_again: 总是展示
   table_of_contents:
-    heading: Contents
+    heading: 目录
     tooltip:
-      move: Drag to move
-      close: Close
+      move: 拖动使其移动
+      close: 关闭
   share:
-    heading: Share on
+    heading: 分享到
     link_copied: Link copied!
     tooltip:
       # keys need to match with _data/share.yml
@@ -114,21 +114,21 @@ post-list:
   button_name: 博客
   upside_down_tabs:
     tab:
-      all: All
-      categories: Categories
-      tags: Tags
-      years: Years
-      clear: Clear
-      close: Close
+      all: 所有
+      categories: 类别
+      tags: 标签
+      years: 年份
+      clear: 清除
+      close: 关闭
       tooltip:
-        clear: Clear
-        close: Close
+        clear: 清除
+        close: 关闭
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: Tag
-        category: Category
-        year: Year
+        tags: 标签
+        category: 种类
+        year: 年份
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
@@ -167,12 +167,12 @@ projects:
 
 # for privacy-policy layout
 privacy-policy:
-  title: &privacy_policy_title Privacy policy
+  title: &privacy_policy_title 隐私权政策
 
 # constants to be replaced for
 constants:
-  greetings: Hello
-  welcome: Welcome
+  greetings: 你好
+  welcome: 欢迎
   sample: Sample
 
 # for contact form
@@ -183,54 +183,54 @@ contact_form:
 # for cookie consent
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
-  side_nav_setting_button_tooltip: &cookie_settings Cookie settings
+  side_nav_setting_button_tooltip: &cookie_settings Cookie 设置
   panel_bar:
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval.
+      本网站使用cookie来优化网站功能。
+      经过您的批准后，它将被激活。
     privacy_msg: Check $privacy_link.
     buttons:
-      accept: &accept_button Allow all
-      settings: Customize
-      deny: &deny_button Deny
+      accept: &accept_button 同意所有
+      settings: 自定义
+      deny: &deny_button 拒绝
   panel_settings:
     title: *cookie_settings
     msg: >
-      This website uses cookies to optimize site functionality.
-      It will be activated with your approval. Please click each item below for cookie policy.
+      本网站使用cookie来优化网站功能。
+      经过您的批准，它将被激活。请按以下每项浏览cookies政策。
     privacy_msg: Check $privacy_link.
     buttons:
       accept: *accept_button
-      save: Allow selection
+      save: 允许选择
       deny: *deny_button
-    always_active: Always active
+    always_active: 总是活动
     consent_types:
       necessary:
-        title: Strictly necessary cookies
+        title: 严格必要的 cookies
         info: >
-          These cookies are essential for the website function and cannot be disable.
-          They are usually set when site function like color scheme etc. is changed.
-          These cookies do not store any personally identifiable information.
+          这些cookies对网站功能至关重要，不能禁用。
+          它们通常在网站功能如配色方案等改变时设置。
+          这些cookies不存储任何个人身份信息。
           $gtag_info
       analytics:
-        title: Performance cookies
+        title: 性能 cookies
         info: $gtag_info
       preferences:
-        title: Functionality cookies
+        title: 功能 cookies
         info: $gtag_info
       advertising:
-        title: Targeting and advertising cookies
+        title: 定位和广告cookies
         info: $gtag_info
     gtag_info:
       # from https://support.google.com/tagmanager/answer/10718549#consent-types
       ad_storage: >
-        Enables storage (such as cookies) related to advertising.
+        启用与广告相关的存储(如cookies)。
       analytics_storage: >
-        Enables storage (such as cookies) related to analytics e.g. visit duration.
+        启用与分析相关的存储(如cookies)，例如访问持续时间。
       functionality_storage: >
-        Enables storage that supports the functionality of the website or app e.g. language settings.
+        启用支持网站或应用程序功能的存储，例如语言设置。
       personalization_storage: >
-        Enables storage related to personalization e.g. video recommendations.
+        支持与个性化相关的存储，例如视频推荐。
       security_storage: >
-        Enables storage related to security such as authentication functionality,
-        fraud prevention, and other user protection.
+        启用与安全性相关的存储，例如身份验证功能;
+        防止欺诈，以及其他用户保护。
